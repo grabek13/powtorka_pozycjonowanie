@@ -1,0 +1,96 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 80%;
+    height: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: 0;
+    margin: auto;
+}
+
+.box-el {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    outline: 2px solid #fff;
+   /* outline-offset: 6px;
+    z-index: 2;
+*/}
+
+.box-el::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    background-color: orange;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#box-2 {
+    left: 100px;
+    top 0;
+    background-color: aqua;
+   /* outline: 2px solid #fff;
+    outline-offset: 6px;
+    z-index: 2;
+    */
+}
+
+#box-2::before {
+    background-color: crimson;
+}
+#box-3 {
+    left: 200px;
+    top: 0;
+    background-color: chartreuse;
+}
+
+#box-4 {
+    left: 0;
+    top: 100px;
+    background-color: darkblue;
+}
+
+#box-5 {
+    left: 100px;
+    top: 100px;
+    background-color: chocolate;
+}
+#box-6 {
+    left: 200px;
+    top: 100px;
+    background-color: darkgray;
+}
+
+#box-7 {
+    left: 0;
+    top: 200px;
+    background-color: deeppink;
+}
+
+#box-8 {
+    left: 100px;
+    top: 200px;
+    background-color: forestgreen;
+}
+
+#box-9 {
+    left: 200px;
+    top: 200px;
+    background-color: darkslateblue;
+}
